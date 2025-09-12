@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page d'accueil</title>
-</head>
-<body>
+
+    <link rel="stylesheet" href="./styles/styleindex.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <p>Meschack SOKI</p>
-            <menu>
-                <p>CV</p>
-                <P>Projets</P>
-                <p>Contact</p>
-            </menu>
-        </nav>
+      <nav>
+        <p class="logo"><strong>Meschack SOKI</strong></p>
+        <p class="hamburger">☰</p>
+      </nav>
     </header>
     <main>
-        <div>
-            <img src="./Assets/Images/MonProfil.JPG" alt="Ma photo de profil">
-            <section>
-                <h1>Hello</h1>
-                <p>A propos de moi</p>
-                <p>Je suis Nicole Rider, une développeuse web passionnée doté d'une créativité débordante et d'un talent pour concrétiser des idées en expériences numériques interactives.</p>
-                <ul>
-                    <li>CV</li>
-                    <li>Projets</li>
-                    <li>Contact</li>
-                </ul>
-            </section>
+      <div class="container">
+        <div class="profil">
+          <img src="/Assets/Images/MonProfil.JPG" alt="Mon profil" />
         </div>
+        <section class="texte">
+          <h1>Hello</h1>
+          <div class="presentation">
+            <h2>A propos de moi</h2>
+            <p>
+              Je suis Nicole Rider, une développeuse web passionnée doté d'une
+              créativité débordante et d'un talent pour concrétiser des idées en
+              expériences numériques interactives.
+            </p>
+          </div>
+          <ul class="liensstylisés">
+            <li class="lipresentation1">CV</li>
+            <li class="lipresentation2">Projets</li>
+            <li class="lipresentation3">Contact</li>
+          </ul>
+        </section>
+      </div>
     </main>
     <footer>
-        <div>
-            <p>Télephone</p>
-            <p>123-456-789</p>
-        </div>
-        <div>
-            <p>Email</p>
-            <p>info@mysite.com</p>
-        </div>
-        <div>
-            <p>Suivez-moi</p>
-            <ul>
-                <li><img src="./Assets/Icons/icon instagram.png" alt="Icon instagram"></li>
-                <li><img src="./Assets/Icons/icon ln.png" alt="Icon in"></li>
-                <li><img src="./Assets/Icons/icon x.png" alt="Icon X"></li>
-            </ul>
-        </div>
-        <div>
-            <p>© 2023 By Nicol Rider</p>
-        </div>
+      <div class="f1 tel">
+        <p><strong>Télephone</strong></p>
+        <p>+243-823-456-005</p>
+      </div>
+      <div class="f1 mail">
+        <p><strong>Email</strong></p>
+        <p>info@mysite.com</p>
+      </div>
+      <div class="f1 suivez-moi">
+        <p><strong>Suivez-moi</strong></p>
+        <ul class="reseauxsociaux">
+          <li>
+            <img src="./Assets/Icons/icon instagram.png" alt="Icon instagram" class="icon" />
+          </li>
+          <li><img src="./Assets/Icons/icon ln.png" alt="Icon in" class="icon"/></li>
+          <li><img src="./Assets/Icons/icon x.png" alt="Icon X" class="icon"/></li>
+        </ul>
+      </div>
+      <div class="f1 copirit">
+        <p>© 2025 By Meschack SOKI</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
