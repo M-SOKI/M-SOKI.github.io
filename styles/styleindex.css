@@ -17,8 +17,9 @@ header{
     align-items: center;
     height: 10vh;
     padding: 0 1vh;
+    width: 100%;
 }
-nav{
+.container1{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,26 +27,63 @@ nav{
     font-size: 1.2rem;
 }
 
-.logo{
-    font-weight: bold;
+
+
+
+
+
+
+
+
+/* Cacher la checkbox */
+#menu-toggle {
+  display: none;
 }
+
+/* Icône burger visible sur mobile */
+.hamburger {
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Menu caché par défaut */
+.nav-links ul {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+/* Quand la checkbox est cochée, afficher le menu */
+#menu-toggle:checked + .hamburger + .nav-links ul {
+  display: flex;
+}
+
+
+
+
+
+
+
 .hamburger{
     font-weight: bold;
     font-size: 1.5rem;
+    cursor: pointer;
 }
-menu{
-    display: flex;
-    list-style: none;
-}
+
 .lynknav{
+    padding: 1vh 0;
     text-decoration: none;
     font-size: 0.9rem;
     padding: 0 3vh;
     color: black;
 }
 .center{
-    border-right: solid 1px rgb(116, 115, 115);
-    border-left: solid 1px rgb(116, 115, 115);
+    padding: 1vh 0;
+    border-top: solid 1px rgb(116, 115, 115);
+    border-bottom: solid 1px rgb(116, 115, 115);
 }
 
 
@@ -78,7 +116,7 @@ menu{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2vh;
+    gap: 3vh;
 }
 h1{
     font-size: 2rem;
@@ -89,6 +127,16 @@ h2{
 .presentation>p{
     text-align: center;
     font-size: 1.2rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-align: center;
+}
+.description>p{
+    text-align: center;
+    font-size: 1rem;
 }
 .liensstylisés{
     display: flex;
@@ -190,13 +238,26 @@ header{
 .hamburger{
     display: none;
 }
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+}
+.lynknav{
+    padding: 0;
+}
+.center{
+    padding: 0 2vh;
+    border-top: none;
+    border-bottom: none;
+    border-right: solid 1px rgb(116, 115, 115);
+    border-left: solid 1px rgb(116, 115, 115);
+}
 
 /* style main */
 .container{
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 10vh;
-    height: 60vh;
 }
 .profil {
   width: 50vh;
@@ -211,12 +272,12 @@ header{
   object-fit: cover;
 }
 .texte{
-    align-items: flex-start;
+    align-items: center;
     gap: 5vh;
-    width: 50vh;
+    width: 50%;
 }
 .presentation{
-    align-items: flex-start;
+    align-items: center;
     gap: 2vh;
 }
 h1{
@@ -226,7 +287,15 @@ h2{
     font-size: 1rem;
 }
 .presentation>p{
-    text-align: start;
+    text-align: center;
+    font-size: 1rem;
+}
+.description{
+    gap: 2vh;
+    text-align: center;
+}
+.description>p{
+    text-align: center;
     font-size: 1rem;
 }
 .liensstylisés{
@@ -286,6 +355,20 @@ header{
 .hamburger{
     display: none;
 }
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+}
+.lynknav{
+    padding: 0;
+}
+.center{
+    padding: 0 2vh;
+    border-top: none;
+    border-bottom: none;
+    border-right: solid 1px rgb(116, 115, 115);
+    border-left: solid 1px rgb(116, 115, 115);
+}
 
 /* style main */
 main{
@@ -313,7 +396,7 @@ main{
 .texte{
     align-items: flex-start;
     gap: 5vh;
-    width: 50vh;
+    width: 50%;
 }
 .presentation{
     align-items: flex-start;
@@ -326,6 +409,16 @@ h2{
     font-size: 1rem;
 }
 .presentation>p{
+    text-align: start;
+    font-size: 1rem;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    text-align: center;
+}
+.description>p{
     text-align: start;
     font-size: 1rem;
 }
