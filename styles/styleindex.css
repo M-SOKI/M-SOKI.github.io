@@ -26,7 +26,10 @@ header{
     width: 100%;
     font-size: 1.2rem;
 }
-
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -57,8 +60,11 @@ header{
 }
 
 /* Quand la checkbox est cochée, afficher le menu */
-#menu-toggle:checked + .hamburger + .nav-links ul {
+#menu-toggle:checked ~ .nav-links ul {
   display: flex;
+}
+#menu-toggle:checked ~ .hamburger::before {
+  content: "✖"; /* changer l’icône en croix */
 }
 
 
@@ -99,6 +105,7 @@ header{
   height: 50vh;
   overflow: hidden;
   border-radius: 100%;
+  box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.3);
 }
 
 .profil img {
