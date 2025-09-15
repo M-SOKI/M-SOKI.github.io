@@ -107,7 +107,7 @@ footer{
     padding: 7vh 0vh;
     margin: 0 5vh;
     gap: 7vh;
-    border-top: solid 2px rgb(244, 242, 242);
+    border-top: solid 1.75px rgb(201, 199, 199);
 }
 .f1{
     display: flex;
