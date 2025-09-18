@@ -173,8 +173,9 @@ footer{
     flex-direction: row;
     padding: 5vh 0vh;
     margin: 0 0vh;
-    gap: 10vh;
+    gap: 5vh;
     align-items: flex-start;
+    width: 80%;
 }
 .f1{
     display: flex;

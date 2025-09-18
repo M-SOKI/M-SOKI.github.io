@@ -96,3 +96,86 @@ ul{
     border-top: solid 1.75px rgb(201, 199, 199);
     padding: 5vh 0 0 0;
 }
+
+
+
+
+
+
+
+
+/* responsive */
+
+/* mobile */
+@media (max-width:426px) {
+    menu{
+    display: none;
+    }
+}
+
+
+/* tablette */
+@media (min-width:426px) and (max-width:770px) {
+    main{
+    width: 80%;
+}
+
+
+.cadrant1{
+    justify-content: space-between;
+    flex-direction: row;
+}
+h1{
+    text-align: start;
+}
+
+.expérience-professionnelle1{
+    padding: 0vh 0 5vh;
+}
+.expérience-professionnelle2{
+    border-top: solid 1.75px rgb(201, 199, 199);
+    padding: 8vh 0 5vh;
+
+}
+.competences-expertise{
+    border-top: solid 1.75px rgb(201, 199, 199);
+    padding: 8vh 0 5vh;
+}
+.langue{
+    border-top: solid 1.75px rgb(201, 199, 199);
+    padding: 8vh 0 5vh;
+}
+}
+
+/* desktop */
+@media (min-width:771px) and (max-width:2025px) {
+    main{
+    width: 80%;
+}
+
+
+.cadrant1{
+    justify-content: space-between;
+    flex-direction: row;
+}
+h1{
+    text-align: start;
+}
+
+.expérience-professionnelle1{
+    padding: 0vh 0 5vh;
+}
+.expérience-professionnelle2{
+    border-top: solid 1.75px rgb(201, 199, 199);
+    padding: 8vh 0 5vh;
+
+}
+.competences-expertise{
+    border-top: solid 1.75px rgb(201, 199, 199);
+    padding: 8vh 0 5vh;
+}
+.langue{
+    border-top: solid 1.75px rgb(201, 199, 199);
+    padding: 8vh 0 5vh;
+}
+}
