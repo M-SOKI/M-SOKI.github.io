@@ -1,0 +1,122 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.MA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.form1{
+    display: flex;
+    gap: 3vh;
+}
+.form11{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 50%;
+}
+.form2{
+    display: flex;
+    gap: 3vh;
+}
+.form21{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 50%;
+}
+.form22{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 4vh;
+}
+.input{
+    height: 5vh;
+    border: 2px solid black;
+}
+.input1{
+    height: 15vh;
+    border: 2px solid black;
+    padding: 1vh 0;
+}
+.bouton{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 100%;
+    border: none;
+    background-color: #EEA302;
+    border: 1px solid black;
+}
+
+
+
+
+/* desktop */
+@media (min-width:836px) and (max-width:2025px) {
+    main{
+    width: 80%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 7vh;
+    width: 50%;
+}
+
+.MA{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3vh;
+}
+.m1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vh;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 50%;
+}
+
+}

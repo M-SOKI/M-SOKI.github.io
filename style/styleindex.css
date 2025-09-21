@@ -1,5 +1,4 @@
 
-
 /* style main */
 .container{
     display: flex;
@@ -20,6 +19,7 @@
   height: 100%;
   object-fit: cover;
 }
+
 .texte{
     display: flex;
     flex-direction: column;
@@ -110,7 +110,7 @@ h2{
 
 /* responsive */
 
-@media (min-width:426px) and (max-width:770px) {
+@media (min-width:450px) and (max-width:835px) {
 
 /* style main */
 .container{
@@ -176,7 +176,7 @@ h2{
 }
 
 /* desktop */
-@media (min-width:771px) and (max-width:2025px) {
+@media (min-width:836px) and (max-width:2025px) {
     
 /* style main */
 main{

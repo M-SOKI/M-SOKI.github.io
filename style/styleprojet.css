@@ -1,0 +1,89 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+h1{
+    text-align: center;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+.sect{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.clsect{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.card {
+  display: flex;              /* Active le flex */
+  flex-direction: column;     /* Empile image + texte verticalement */
+  align-items: center;        /* Centre horizontalement */
+  text-decoration: none;      /* Supprime le soulignement */
+  overflow: hidden;           /* Coupe ce qui dépasse */
+}
+
+.card .imgpage {
+  max-width: 100%;            /* L'image ne dépasse pas la largeur du lien */
+  height: auto;               /* Garde les proportions */
+  display: block;             /* Supprime l'espace blanc sous l'image */
+  object-fit: cover;          /* Coupe l'image si nécessaire pour remplir */
+  border: 15px solid #e3e3e3;       /* Largeur, style et couleur de la bordure */
+  max-width: 100%;              /* Empêche l'image de déborder */
+  height: auto;
+  box-sizing: border-box;
+}
+
+.imgpage{
+    display: flex;
+    
+    border: 15px solid rgb(222, 221, 221);
+}
+
+
+
+
+
+/* desktop */
+@media (min-width:836px) and (max-width:2025px) {
+    main{
+    width: 80%;
+}
+
+h1{
+    text-align: start;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+.sect{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.clsect{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.card {
+  display: flex;              /* Active le flex */
+  flex-direction: co;     /* Empile image + texte verticalement */
+  align-items: center;        /* Centre horizontalement */
+  text-decoration: none;      /* Supprime le soulignement */
+  overflow: hidden;           /* Coupe ce qui dépasse */
+  width: 60%;
+}
+.ppage{
+    padding-top:10vh ;
+    width: 30%;
+}
+}

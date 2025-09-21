@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infos de contact</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page d'accueil</title>
+
+    <link rel="stylesheet" href="/style/stylegeneral.css">
+    <link rel="stylesheet" href="/style/stylecontact.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="container1">
+        <strong class="logo"><a href="index.html">Meschack SOKI</a></strong>
+      </div>
+      <div class="container2">
+        <nav class="nav-links">
+          <ul>
+            <li><a href="cv.html" class="lynknav">CV</a></li>
+            <li><a href="projet.html" class="lynknav center">Projets</a></li>
+            <li><a href="contact.html" class="lynknav">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="cont1">
+        <h1>Contact</h1>
+        <div class="MA">
+          <div class="m1 tel">
+            <p><strong>Télephone</strong></p>
+            <p>+243-823-456-005</p>
+          </div>
+          <div class="m1 mail">
+            <p><strong>Email</strong></p>
+            <p>meschacksoki01@gmail.com</p>
+          </div>
+        </div>
+      </section>
+      <form action="" class="cont2">
+        <div class="form1">
+          <div class="form11">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" placeholder="Entrez votre prénom" class="input">
+          </div>
+          <div class="form11">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="Entrez votre nom" class="input">
+          </div>
+        </div>
+        <div class="form1">
+          <div class="form11">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Entrez votre email" class="input">
+          </div>
+          <div class="form11">
+            <label for="sujet">Sujet du message :</label>
+            <select id="sujet" class="input">
+              <option value="Demande-de-collaboration">Demande de collaboration</option>
+              <option value="Question-sur-vos-services">Question sur vos services</option>
+              <option
+              value="Retour-sur-mon-expérience">Retour sur mon expérience</option>
+              <option value="Proposition-de-projet">Proposition de projet</option>
+              <option selected="selected" value="Demande-d'informations">Demande d'informations</option>
+            </select>
+          </div>
+        </div>
+        <div class="form2">
+          <div class="form21">
+            <label for="message">message</label>
+            <textarea id="message" placeholder="Demande de devis, question sur un projet..." cols="20" rows="5" class="input1"></textarea>
+          </div>
+          <div class="form22">
+            <input type="submit" value="Envoyez" class="bouton">
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <div class="fA">
+        <div class="f1 tel">
+          <p><strong>Télephone</strong></p>
+          <p>+243-823-456-005</p>
+        </div>
+        <div class="f1 mail">
+          <p><strong>Email</strong></p>
+          <p>meschacksoki01@gmail.com</p>
+        </div>
+      </div>
+      <div class="fA">
+        <div class="f1 suivez-moi">
+          <p><strong>Suivez-moi</strong></p>
+          <ul class="reseauxsociaux">
+            <li>
+              <a href="https://web.facebook.com/meschack.soki/?_rdc=1&_rdr#"><img src="./Assets/Icons/icon instagram.png" alt="Icon instagram" class="icon" /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/meschack-soki-3a670234b/?originalSubdomain=cd"><img src="./Assets/Icons/icon ln.png" alt="Icon in" class="icon"/></a>
+            </li>
+            <li>
+              <a href="https://x.com/SOKI0840?t=1fInkyL1650LfWAkeFWkDQ&s=09"><img src="./Assets/Icons/icon x.png" alt="Icon X" class="icon"/></a>
+            </li>
+          </ul>
+        </div>
+        <div class="f1 copirit">
+          <p>© 2025 By Meschack SOKI</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
